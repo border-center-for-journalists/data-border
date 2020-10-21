@@ -1,0 +1,47 @@
+.container div{
+    align-items: center;
+    justify-content: center;
+}
+
+/*navbar*/
+.navbar > div{
+    display: flex;
+}
+
+.logonavbar > img{
+    width: 435px;
+    height: 91px;
+    object-fit: contain;
+}
+
+.Rectangle-1{
+    width: 90px;
+    height: 91px;
+    background-color: #000000;
+}
+
+.TFDPNQXWBFCE5JIQBOM2KFH2EI{
+    width: 656px;
+    height: 250px;
+    background-blend-mode: multiply;
+    background-image: linear-gradient(to top, #000000, #ffffff);
+}
+
+.Rectangle-2-copy{
+    width: 656px;
+    height: 217px;
+    background-color: #1d1d1b;
+}
+
+.Rectangle-2-copy-2{
+    width: 656px;
+    height: 335px;
+    background-color: #1d1d1b;
+}
+
+.DATABORDER {
+    width: 750px;
+    height: 1491px;
+    background-color: #ffffff;
+}
+
