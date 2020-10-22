@@ -1,23 +1,27 @@
-.container div{
+.container{
+    display: flex;
     align-items: center;
     justify-content: center;
+    /*position: relative;*/
 }
 
 /*navbar*/
-.navbar > div{
-    display: flex;
+.navbar{
+    display: inline;
 }
 
 .logonavbar > img{
     width: 435px;
     height: 91px;
     object-fit: contain;
+    padding-left: 92px;
 }
 
 .Rectangle-1{
     width: 90px;
     height: 91px;
     background-color: #000000;
+    margin-bottom: 800px;
 }
 
 .TFDPNQXWBFCE5JIQBOM2KFH2EI{
@@ -43,5 +47,44 @@
     width: 750px;
     height: 1491px;
     background-color: #ffffff;
+}
+
+.spacebetween{
+    margin-bottom: 100px;
+}
+
+.move-top{
+    margin-bottom: 300px;
+}
+
+.Consectetur-adipisicing-elit-sed-do-eiusmod-tempor-incididunt {
+    width: 554px;
+    height: 60px;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.83;
+    letter-spacing: 0.6px;
+    text-align: left;
+    color: #ffffff;
+}
+  
+  .Consectetur-adipisicing-elit-sed-do-eiusmod-tempor-incididunt .text-style-1 {
+    font-size: 15px;
+    line-height: 1.6;
+    letter-spacing: 0.75px;
+}
+  
+  .Consectetur-adipisicing-elit-sed-do-eiusmod-tempor-incididunt .text-style-2 {
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: 0.9px;
+}
+  
+  .Consectetur-adipisicing-elit-sed-do-eiusmod-tempor-incididunt .text-style-3 {
+    font-size: 18px;
+    letter-spacing: 0.9px;
 }
 
