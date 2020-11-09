@@ -1,3 +1,4 @@
+/*contenedor principal*/
 .container{
     display: flex;
     align-items: center;
@@ -13,9 +14,10 @@
     width: 435px;
     height: 91px;
     object-fit: contain;
-    padding-left: 92px;
+    padding-right: 92px;
 }
 
+/*redes sociales navbar*/
 .Elipse-1-copia-3 {
     width: 50px;
     height: 50px;
@@ -40,13 +42,14 @@ ul {
     text-decoration: none;
   }
 
+/*Cuadrito negro navbar*/
 .Rectangle-1{
     width: 90px;
     height: 91px;
     background-color: #000000;
-    margin-bottom: 800px;
 }
 
+/*Clase de rectángulo difuminado*/
 .TFDPNQXWBFCE5JIQBOM2KFH2EI{
     width: 656px;
     height: 250px;
@@ -54,6 +57,7 @@ ul {
     background-image: linear-gradient(to top, #000000, #ffffff);
 }
 
+/*Rectángulo negro de cada sección*/
 .Rectangle-2-copy{
     width: 656px;
     height: 217px;
@@ -76,10 +80,11 @@ ul {
     margin-bottom: 100px;
 }
 
-.move-top{
+/*.move-top{
     margin-bottom: 1000px;
-}
+}*/
 
+/*Clases para ajustar el texto de cada sección*/
 .Consectetur-adipisicing-elit-sed-do-eiusmod-tempor-incididunt {
     width: 554px;
     height: 60px;
@@ -92,6 +97,18 @@ ul {
     letter-spacing: 0.6px;
     text-align: left;
     color: #ffffff;
+}
+
+.modify-text{
+    text-align: center;
+    /*top right down left*/
+    padding: 28px 0 0 45px;
+}
+
+.modify-text2{
+    text-align: center;
+    /*top right down left*/
+    padding: 80px 0 0 45px;
 }
   
   .Consectetur-adipisicing-elit-sed-do-eiusmod-tempor-incididunt .text-style-1 {
@@ -111,3 +128,107 @@ ul {
     letter-spacing: 0.9px;
 }
 
+/*cuadritos de borde blanco debajo del texto*/
+.Rectangle-3-copy-2 {
+    width: 71px;
+    height: 60px;
+    border: solid 2px #e3f3e4;
+    /*background-color: #e3f3e4;*/
+}
+
+/*id del div que contiene a las cajitas de borde blanco*/
+#box-container{
+    align-items: center;
+    margin-left: 50px;
+}
+
+.modify-rectangle{
+    align-self: inherit;
+    float: left;
+    margin-top: 20px;
+    margin-left: 25px;
+}
+
+.modify-rectangle2{
+    align-self: inherit;
+    float: left;
+    margin-top: 38px;
+    margin-left: 25px;
+}
+
+/*Clases para el título "Proyecto"*/
+/*.Proyecto-Subttulo-Consectetur-adipisicing-elit-sed-do-eiusmod-copy-2 {
+    width: 271px;
+    height: 50px;
+    background-color: #ffffff;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.83;
+    letter-spacing: 0.6px;
+    text-align: left;
+    color: #ffffff;
+  }
+  
+  .Proyecto-Subttulo-Consectetur-adipisicing-elit-sed-do-eiusmod-copy-2 .text-style-1 {
+    font-size: 55px;
+    font-weight: bold;
+    line-height: 1.27;
+    letter-spacing: 2.75px;
+  }
+  
+  .Proyecto-Subttulo-Consectetur-adipisicing-elit-sed-do-eiusmod-copy-2 .text-style-2 {
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 1.43;
+    letter-spacing: 1.4px;
+  }
+  
+  .Proyecto-Subttulo-Consectetur-adipisicing-elit-sed-do-eiusmod-copy-2 .text-style-3 {
+    font-size: 15px;
+    line-height: 1.6;
+    letter-spacing: 0.75px;
+  }
+  
+  .Proyecto-Subttulo-Consectetur-adipisicing-elit-sed-do-eiusmod-copy-2 .text-style-4 {
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: 0.9px;
+  }
+  
+  .Proyecto-Subttulo-Consectetur-adipisicing-elit-sed-do-eiusmod-copy-2 .text-style-5 {
+    font-size: 18px;
+    letter-spacing: 0.9px;
+  } */
+
+  .Proyecto-titulo{
+    width: 271px;
+    height: 30px;
+    font-size: 55px;
+    font-family: Montserrat;
+    font-weight: bold;
+    font-stretch: normal;
+    text-align: left;
+    color: #ffffff;
+  }
+
+  .Proyecto-titulo2{
+    width: 271px;
+    height: 30px;
+    font-size: 49px;
+    font-family: Montserrat;
+    font-weight: bold;
+    font-stretch: normal;
+    text-align: left;
+    color: #ffffff;
+  }
+
+  .modify-title{
+      padding: 20px 0 0 35px;
+  }
+
+  .modify-title2{
+    padding: 10px 0 0 35px;
+  }
