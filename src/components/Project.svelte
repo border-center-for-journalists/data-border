@@ -48,15 +48,17 @@
     .project-links a{
         color:white;
         text-decoration: none;
+        display: flex;
     }
     .project-links li{
-        line-height: 62px;
-        margin:10px 5px;
+        line-height: 46px;
+        margin:15px 5px 0;
     }
     .project-links .icon{
         font-size:30px;
-        margin-right:5px;
-        padding:10px 15px 3px;
+        margin-right:15px;
+        padding:6px 15px 0;
         border: 1px solid white;
+        line-height: 30px;
     }
 </style>
