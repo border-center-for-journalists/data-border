@@ -16,6 +16,11 @@
     "svelte": "^3.0.0"
   },
   "dependencies": {
-    "sirv-cli": "^1.0.0"
+    "apisauce": "^2.0.0",
+    "contentful": "^7.14.12",
+    "prismic-dom": "^2.2.4",
+    "prismic-javascript": "^3.0.2",
+    "sirv-cli": "^1.0.0",
+    "svelte-material-icons": "^1.0.3"
   }
 }

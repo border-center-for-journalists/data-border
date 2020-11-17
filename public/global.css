@@ -17,6 +17,7 @@ p {
     letter-spacing: .75px;
 }
 
+
 nav {
     display: flex;
 }
@@ -119,6 +120,7 @@ nav.social a.yt {
     display: block;
     max-height: 180px;
     overflow: hidden;
+    max-width:100%;
 }
 
 .projects article .bg-img::after {
@@ -167,6 +169,7 @@ nav.social a.yt {
     line-height: 31px;
     padding: 8px 0 15px 0;
     z-index: 1;
+    text-transform: uppercase;
 }
 
 .projects article nav img {

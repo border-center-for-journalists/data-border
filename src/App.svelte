@@ -1,29 +1,20 @@
 <script>
+    import * as cms from 'cms.js';
+    import Project from './components/Project.svelte';
+    import Navigation from './components/Navigation.svelte';
+    
+    $: getProjects = cms.getDocuments('proyecto');   
+    //$: getCommon = cms.getDocuments('commonData');
 </script>
 
 <main>
-	<nav class='main-nav'>
-        <button class='menu-button'></button>
-        <a href='/' class='logo'> <img alt='data border logo' src='img/logo.png'> </a>
-        <nav class='social'>
-            <a href='https://www.facebook.com/bordercenter' class='fb'> </a>
-            <a href='https://twitter.com/BorderCenter' class='tw'> </a>
-            <a href='https://www.youtube.com/channel/UCZY_GRVRu8Gxz_DrRO6hgsA' class='yt'> </a>
-        </nav>
-    </nav>
+	<Navigation />
     <section class='projects'>
-        <article>
-            <header>
-                <nav>
-                    <img src='img/app-icon.png' alt='app-icon' />
-                    <span>APP</span>
-                </nav>
-                <h2>Facturanet</h2>
-            </header>
-            <p>Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-            <div class='bg-img'><img src='img/projects/facturanet.png' alt='Captura de pantalla de pagina de border hub' /></div>
-            <div class='bg-color'></div>
-        </article>
+        {#await getProjects then projects}
+            {#each projects.results as project}
+                <Project project={project.data}/>
+            {/each}
+        {/await}
     </section>
 </main>
 
