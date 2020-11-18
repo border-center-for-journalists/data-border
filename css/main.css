@@ -156,56 +156,9 @@ ul {
     margin-left: 25px;
 }
 
-/*Clases para el título "Proyecto"*/
-/*.Proyecto-Subttulo-Consectetur-adipisicing-elit-sed-do-eiusmod-copy-2 {
-    width: 271px;
-    height: 50px;
-    background-color: #ffffff;
-    font-family: Montserrat;
-    font-size: 12px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.83;
-    letter-spacing: 0.6px;
-    text-align: left;
-    color: #ffffff;
-  }
-  
-  .Proyecto-Subttulo-Consectetur-adipisicing-elit-sed-do-eiusmod-copy-2 .text-style-1 {
-    font-size: 55px;
-    font-weight: bold;
-    line-height: 1.27;
-    letter-spacing: 2.75px;
-  }
-  
-  .Proyecto-Subttulo-Consectetur-adipisicing-elit-sed-do-eiusmod-copy-2 .text-style-2 {
-    font-size: 28px;
-    font-weight: bold;
-    line-height: 1.43;
-    letter-spacing: 1.4px;
-  }
-  
-  .Proyecto-Subttulo-Consectetur-adipisicing-elit-sed-do-eiusmod-copy-2 .text-style-3 {
-    font-size: 15px;
-    line-height: 1.6;
-    letter-spacing: 0.75px;
-  }
-  
-  .Proyecto-Subttulo-Consectetur-adipisicing-elit-sed-do-eiusmod-copy-2 .text-style-4 {
-    font-size: 18px;
-    line-height: 1.33;
-    letter-spacing: 0.9px;
-  }
-  
-  .Proyecto-Subttulo-Consectetur-adipisicing-elit-sed-do-eiusmod-copy-2 .text-style-5 {
-    font-size: 18px;
-    letter-spacing: 0.9px;
-  } */
-
   .Proyecto-titulo{
     width: 271px;
-    height: 30px;
+    height: 200px;
     font-size: 55px;
     font-family: Montserrat;
     font-weight: bold;
@@ -226,9 +179,29 @@ ul {
   }
 
   .modify-title{
-      padding: 20px 0 0 35px;
+      padding: 16px 0 60px 25px;
+      /*margin-top: 0px;
+      margin-bottom: 100px;*/
   }
 
   .modify-title2{
-    padding: 10px 0 0 35px;
+    padding: 10px 0 0 25px;
   }
+
+/*Barra amarilla que va arriba del título de cada sección*/
+
+.Rectangle-3-copy-7 {
+  width: 553px;
+  height: 5px;
+  /*margin: 8px 0 16px 23px;*/
+  background-color: #d4ca05;
+}
+
+.modify-yellowline{
+  padding-top: 64px;
+}
+
+.modify-yellowline2{
+  padding-top: 59px;
+}
+
