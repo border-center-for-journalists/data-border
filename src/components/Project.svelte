@@ -4,7 +4,6 @@
     import LinkVariant from "svelte-material-icons/LinkVariant.svelte";
 
     export let project;
-    console.log(project);
 
     const icons = {
         github : GithubCircle,
