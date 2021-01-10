@@ -16,9 +16,10 @@
 
 <style>
 h1{
-    font-size: 31px;
+    font-size: 27px;
     text-align: center; 
     margin-bottom: 15px;
+    font-weight: normal;
 }
 
 .intro{
@@ -42,7 +43,7 @@ h1{
 
 @media(min-width: 700px){
     h1{
-        font-size:50px;
+        font-size:35px;
     }
     .intro content{
         padding: 0 55px;

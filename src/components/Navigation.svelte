@@ -21,3 +21,72 @@
     </nav>
     <Menu menu='{content.menu}' bind:showMenu={showMenu}/>
 </nav>
+
+<style>
+    
+nav {
+    display: flex;
+}
+
+nav .menu-button {
+    border: none;
+    width: 50px;
+    height: 50px;
+    background: black url(../img/hamburger-menu.png) center center no-repeat;
+    background-size: 20px
+}
+
+nav .logo {
+    line-height: 0;
+}
+
+nav .logo img {
+    height: 50px;
+    object-fit: contain;
+}
+
+nav.social {
+    margin-left: auto;
+    padding: 0 12px;
+    background: white;
+    display: none;
+}
+
+@media(min-width: 700px) {
+    nav .logo img {
+        height: 75px;
+    }
+
+    nav .menu-button {
+        width: 75px;
+        height: 75px;
+        background-size: auto;
+    }
+
+    nav.social {
+        display: flex;
+    }
+}
+
+nav.social a {
+    background-color: #fff200;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: auto 8px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+nav.social a.fb {
+    background-image: url(../img/fb-C.png);
+}
+
+nav.social a.tw {
+    background-image: url(../img/tw-C.png);
+}
+
+nav.social a.yt {
+    background-image: url(../img/yt-C.png);
+}
+</style>
