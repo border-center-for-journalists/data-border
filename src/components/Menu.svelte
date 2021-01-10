@@ -33,7 +33,6 @@ menu li a{
 	text-decoration: none;
 	color: black;
 	font-weight: bold;
-
 }
 
 .side-menu{
