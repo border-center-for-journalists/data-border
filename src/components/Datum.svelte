@@ -26,7 +26,7 @@
 	<div class='summary'>
 	    <div>
 		    <h2>{datum.title[0].text}</h2>
-		    {@html cms.formatHTML(datum.description)}
+		    <div class='description'>{@html cms.formatHTML(datum.description)}</div>
 		    <p class='source'><b>Fuente:</b> {datum.source}</p>
 		    <p class='formats'>
 			    {#each datum.formats as format}
@@ -57,6 +57,9 @@
 </article>
 
 <style>
+	.description a{
+		color: black;
+	}
 	article{
 		background-color: #F0F0F0;
 		padding: 20px 40px;
