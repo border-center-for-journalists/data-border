@@ -166,7 +166,7 @@
 		font-size:33px;
 		border-radius:50%;
 		line-height: 33px;
-		width:38px;
+		min-width:36px;
 		padding: 0;
 		margin:20px 0 0 25px;
     	transition: background-color .25s ease;
